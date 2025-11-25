@@ -11,7 +11,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 
 # API Gateway endpoint URL
-API_GATEWAY_URL = 'https://8atev3w62g.execute-api.us-east-1.amazonaws.com/default/gen-ai'  # Replace with your API Gateway URL
+API_GATEWAY_URL = 'https://eggisf2flj.execute-api.us-east-1.amazonaws.com/default/genai-app'  # Replace with your API Gateway URL
 
 # Create uploads directory if it doesn't exist
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
